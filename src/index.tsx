@@ -65,7 +65,7 @@ body{
   font-family: 'Source Sans 3', sans-serif;
   background-color:${(props) => props.theme.bgColor};
   color:${(props) => props.theme.textColor};
-  background:linear-gradient(135deg,#e09,#d0e);
+  background:linear-gradient(135deg,rgb(122, 188, 246),rgb(211, 254, 162),rgb(251, 255, 121));
   line-height: 1.2;
 }
 a{
