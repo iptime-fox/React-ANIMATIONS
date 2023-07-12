@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,7 +62,7 @@ table {
   box-sizing: border-box;
 }
 body{
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   background-color:${(props) => props.theme.bgColor};
   color:${(props) => props.theme.textColor};
   background:linear-gradient(135deg,rgb(122, 188, 246),rgb(211, 254, 162),rgb(251, 255, 121));
